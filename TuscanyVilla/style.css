@@ -1,1 +1,117 @@
-﻿
+﻿body {
+    margin: 0;
+}
+
+.grid-container {
+   
+    grid-template-areas: 'nav nav nav nav nav nav' 'landing landing landing landing landing landing' 'Locations Locations Locations Locations Locations Locations' 'Location1 Location1 Location1 Location1 Location1 Location1' 'Location2 Location2 Location2 Location2 Location2 Location2' 'Location3 Location3 Location3 Location3 Location3 Location3' 'Ammenities Ammenities Ammenities Ammenities Ammenities Ammenities' 'Checker Checker Checker Checker Checker Checker';
+    background-color: darkslategrey;
+    /*padding: 16px;*/
+    margin-top: 20px;
+    height: 1500px; /* Used in this example to enable scrolling */
+}
+
+    .grid-container > div {
+       
+        text-align: center;
+        padding: 10px 0;
+        
+    }
+
+.item1 {
+    grid-area: nav;
+    background-color: dimgrey;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 75px;
+}
+
+.item2 {
+    grid-area: landing;
+    background-color: lightseagreen;
+    height: 600px;
+    width: 100%;
+}
+
+.item3 {
+    grid-area: Locations;
+    background-color: dimgrey;
+    height: 100px;
+}
+
+.item4 {
+    grid-area: Location1;
+    background-color: whitesmoke;
+    height: 400px;
+}
+
+.item5 {
+    grid-area: Location2;
+    background-color: dimgrey;
+    height: 400px;
+}
+
+.item6 {
+    grid-area: Location3;
+    background-color: whitesmoke;
+    height: 400px;
+}
+
+
+.item7 {
+    grid-area: Ammenities;
+    background-color: dimgrey;
+    height: 400px;
+}
+
+.item8 {
+    grid-area: Checker;
+    background-color: whitesmoke;
+    height: 400px;
+}
+
+.item9 {
+    grid-area: Carousel;
+    background-color: dimgrey;
+    height: 400px;
+}
+
+.item10 {
+    grid-area: Contact;
+    background-color: whitesmoke;
+    height: 400px;
+}
+
+.item11 {
+    grid-area: footer;
+    background-color: dimgrey;
+    height: 200px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: right;
+}
+
+    li a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        margin-left: 30px;
+        padding: 10px 15px;
+        padding-bottom: 50px;
+        
+    }
+
+        /*li a:hover {
+        }
+
+#id {
+}*/
+
