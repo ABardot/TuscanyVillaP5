@@ -4,22 +4,21 @@
 
 .grid-container {
     display: grid;
-    grid-template-areas: 'nav nav nav nav nav nav' 'landing landing landing landing landing landing' 'Locations Locations Locations Locations Locations Locations' 'Location1 Location1 Location1 Location1 Location1 Location1' 'Location2 Location2 Location2 Location2 Location2 Location2' 'Location3 Location3 Location3 Location3 Location3 Location3' 'Ammenities Ammenities Ammenities Ammenities Ammenities Ammenities' 'Checker1 Checker1 Checker2 Checker2 Checker3 Checker3' 'Checker4 Checker4 Checker5 Checker5 Checker6 Checker6' 'Checker7 Checker7 Checker8 Checker8 Checker9 Checker9' 'Reviews Reviews Reviews Reviews Reviews Reviews' 'Contact Contact Contact Contact Contact Contact' 'Footer Footer Footer Footer Footer Footer';
-    background-color: darkslategrey;
+    grid-template-areas: 'nav nav nav nav nav nav' 'landing landing landing landing Map Map' 'Locations Locations Locations Locations Locations Locations' 'Location1 Location1 Location1 Location1 Location1 Location1' 'Location2 Location2 Location2 Location2 Location2 Location2' 'Location3 Location3 Location3 Location3 Location3 Location3' 'Ammenities Ammenities Ammenities Ammenities Ammenities Ammenities' 'Checker1 Checker1 Checker2 Checker2 Checker3 Checker3' 'Checker4 Checker4 Checker5 Checker5 Checker6 Checker6' 'Checker7 Checker7 Checker8 Checker8 Checker9 Checker9' 'Reviews Reviews Reviews Reviews Reviews Reviews' 'Contact Contact Contact Contact Contact Contact' 'Footer Footer Footer Footer Footer Footer';
     margin-top: 20px;
     height: 1500px; /* Used in this example to enable scrolling */
 }
 
     .grid-container > div {
        
-        text-align: center;
+       
        
         
     }
 
 .item1 {
     grid-area: nav;
-    background-color: dimgrey;
+    background-color: #474E5D;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -29,112 +28,121 @@
 
 .item2 {
     grid-area: landing;
-    background-color: lightseagreen;
-    height: 600px;
-    width: 100%;
+    background-image: url('img/img9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.itemMap {
+    grid-area: Map;
+    background-image: url('img/Versilia.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
 }
 
 .item3 {
     grid-area: Locations;
-    background-color: dimgrey;
+    background-color: #474E5D;
     height: 100px;
+    text-align: center;
 }
 
 .item4 {
     grid-area: Location1;
-    background-color: whitesmoke;
+    background-color: #DFDED1;
     height: 400px;
 }
 
 .item5 {
     grid-area: Location2;
-    background-color: dimgrey;
+    background-color: #474E5D;
     height: 400px;
 }
 
 .item6 {
     grid-area: Location3;
-    background-color: whitesmoke;
+    background-color: #DFDED1;
     height: 400px;
 }
 
 
 .item7 {
     grid-area: Ammenities;
-    background-color: dimgrey;
+    background-color: #474E5D;
     height: 400px;
 }
 
 .item8 {
     grid-area: Checker1;
-    background-color: slategrey;
+    background-color: #DFDED1;
     height: 200px;
-
 }
 
 .item9 {
     grid-area: Checker2;
-    background-color: whitesmoke;
+    background-color: #DFDED1;
     height: 200px;
 }
 
 .item10 {
     grid-area: Checker3;
-    background-color: slategrey;
+    background-color: #DFDED1;
     height: 200px;
 }
 
 .item11 {
     grid-area: Checker4;
-    background-color: whitesmoke;
+    background-color: #DFDED1;
     height: 200px;
 }
 
 .item12 {
     grid-area: Checker5;
-    background-color: slategrey;
+    background-color: #DFDED1;
     height: 200px;
 }
 
 .item13 {
     grid-area: Checker6;
-    background-color: whitesmoke;
+    background-color: #DFDED1;
     height: 200px;
 }
 
 .item14 {
     grid-area: Checker7;
-    background-color: slategrey;
+    background-color: #DFDED1;
     height: 200px;
 }
 
 .item15 {
     grid-area: Checker8;
-    background-color: whitesmoke;
+    background-color: #DFDED1;
     height: 200px;
 }
 
 .item16 {
     grid-area: Checker9;
-    background-color: slategrey;
+    background-color: #DFDED1;
     height: 200px;
 }
 
 .item17 {
     grid-area: Reviews;
-    background-color: grey; 
+    background-color: #474E5D;
     height: 400px;
 }
 
 .item18 {
     grid-area: Contact;
-    background-color: whitesmoke;
+    background-color: #DFDED1;
     height: 400px;
 }
 
 .item19 {
     grid-area: Footer;
-    background-color: slategrey;
+    background-color: #474E5D;
     height: 75px;
 }
 
