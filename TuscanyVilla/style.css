@@ -3,10 +3,9 @@
 }
 
 .grid-container {
-   
-    grid-template-areas: 'nav nav nav nav nav nav' 'landing landing landing landing landing landing' 'Locations Locations Locations Locations Locations Locations' 'Location1 Location1 Location1 Location1 Location1 Location1' 'Location2 Location2 Location2 Location2 Location2 Location2' 'Location3 Location3 Location3 Location3 Location3 Location3' 'Ammenities Ammenities Ammenities Ammenities Ammenities Ammenities' 'Checker Checker Checker Checker Checker Checker';
+    display: grid;
+    grid-template-areas: 'nav nav nav nav nav nav' 'landing landing landing landing landing landing' 'Locations Locations Locations Locations Locations Locations' 'Location1 Location1 Location1 Location1 Location1 Location1' 'Location2 Location2 Location2 Location2 Location2 Location2' 'Location3 Location3 Location3 Location3 Location3 Location3' 'Ammenities Ammenities Ammenities Ammenities Ammenities Ammenities' 'Checker1 Checker1 Checker2 Checker2 Checker3 Checker3' 'Checker4 Checker4 Checker5 Checker5 Checker6 Checker6' 'Checker7 Checker7 Checker8 Checker8 Checker9 Checker9';
     background-color: darkslategrey;
-    /*padding: 16px;*/
     margin-top: 20px;
     height: 1500px; /* Used in this example to enable scrolling */
 }
@@ -14,7 +13,7 @@
     .grid-container > div {
        
         text-align: center;
-        padding: 10px 0;
+       
         
     }
 
@@ -67,28 +66,69 @@
 }
 
 .item8 {
-    grid-area: Checker;
-    background-color: whitesmoke;
-    height: 400px;
+    grid-area: Checker1;
+    background-color: slategrey;
+    height: 200px;
+
 }
 
 .item9 {
-    grid-area: Carousel;
-    background-color: dimgrey;
-    height: 400px;
+    grid-area: Checker2;
+    background-color: whitesmoke;
+    height: 200px;
 }
 
 .item10 {
-    grid-area: Contact;
-    background-color: whitesmoke;
-    height: 400px;
+    grid-area: Checker3;
+    background-color: slategrey;
+    height: 200px;
 }
 
 .item11 {
-    grid-area: footer;
-    background-color: dimgrey;
+    grid-area: Checker4;
+    background-color: whitesmoke;
     height: 200px;
 }
+
+.item12 {
+    grid-area: Checker5;
+    background-color: slategrey;
+    height: 200px;
+}
+
+.item13 {
+    grid-area: Checker6;
+    background-color: whitesmoke;
+    height: 200px;
+}
+
+.item14 {
+    grid-area: Checker7;
+    background-color: slategrey;
+    height: 200px;
+}
+
+.item15 {
+    grid-area: Checker8;
+    background-color: whitesmoke;
+    height: 200px;
+}
+
+.item16 {
+    grid-area: Checker9;
+    background-color: slategrey;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
 
 ul {
     list-style-type: none;
