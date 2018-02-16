@@ -4,7 +4,7 @@
 
 .grid-container {
     display: grid;
-    grid-template-areas: 'nav nav nav nav nav nav' 'landing landing landing landing landing landing' 'Locations Locations Locations Locations Locations Locations' 'Location1 Location1 Location1 Location1 Location1 Location1' 'Location2 Location2 Location2 Location2 Location2 Location2' 'Location3 Location3 Location3 Location3 Location3 Location3' 'Ammenities Ammenities Ammenities Ammenities Ammenities Ammenities' 'Checker1 Checker1 Checker2 Checker2 Checker3 Checker3' 'Checker4 Checker4 Checker5 Checker5 Checker6 Checker6' 'Checker7 Checker7 Checker8 Checker8 Checker9 Checker9';
+    grid-template-areas: 'nav nav nav nav nav nav' 'landing landing landing landing landing landing' 'Locations Locations Locations Locations Locations Locations' 'Location1 Location1 Location1 Location1 Location1 Location1' 'Location2 Location2 Location2 Location2 Location2 Location2' 'Location3 Location3 Location3 Location3 Location3 Location3' 'Ammenities Ammenities Ammenities Ammenities Ammenities Ammenities' 'Checker1 Checker1 Checker2 Checker2 Checker3 Checker3' 'Checker4 Checker4 Checker5 Checker5 Checker6 Checker6' 'Checker7 Checker7 Checker8 Checker8 Checker9 Checker9' 'Reviews Reviews Reviews Reviews Reviews Reviews' 'Contact Contact Contact Contact Contact Contact' 'Footer Footer Footer Footer Footer Footer';
     background-color: darkslategrey;
     margin-top: 20px;
     height: 1500px; /* Used in this example to enable scrolling */
@@ -120,6 +120,23 @@
     height: 200px;
 }
 
+.item17 {
+    grid-area: Reviews;
+    background-color: grey; 
+    height: 400px;
+}
+
+.item18 {
+    grid-area: Contact;
+    background-color: whitesmoke;
+    height: 400px;
+}
+
+.item19 {
+    grid-area: Footer;
+    background-color: slategrey;
+    height: 75px;
+}
 
 
 
