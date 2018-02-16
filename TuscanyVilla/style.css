@@ -9,12 +9,7 @@
     height: 1500px; /* Used in this example to enable scrolling */
 }
 
-    .grid-container > div {
-       
-       
-       
-        
-    }
+
 
 .item1 {
     grid-area: nav;
@@ -45,13 +40,16 @@
 .item3 {
     grid-area: Locations;
     background-color: #474E5D;
-    height: 100px;
+    height: 130px;
     text-align: center;
+    
 }
 
 .item4 {
     grid-area: Location1;
     background-color: #DFDED1;
+    
+
     height: 400px;
 }
 
@@ -72,6 +70,7 @@
     grid-area: Ammenities;
     background-color: #474E5D;
     height: 400px;
+    background-image: url('img/img2.jpg');
 }
 
 .item8 {
@@ -147,12 +146,31 @@
 }
 
 
+img{
+   height: 300px;
+   width: 500px;
+   /*float: right;
+   padding-right: 70px;*/
+}
+
+#img6{
+    float: right;
+    padding-right: 60px;
+    padding-top: 50px;
+}
 
 
+#img7{
+    padding-left: 60px;
+    padding-top: 50px;
 
+}
 
-
-
+#img8 {
+    float: right;
+    padding-right: 60px;
+    padding-top: 50px;
+}
 
 
 ul {
@@ -174,9 +192,7 @@ li {
         
     }
 
-        /*li a:hover {
-        }
-
-#id {
-}*/
-
+ 
+p.textPad{
+    padding-bottom: 90px;
+}
