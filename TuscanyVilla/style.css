@@ -49,12 +49,26 @@
     background-color: #fff;
 }
 
-    .item42 li {
-        display: block; /*1*/
+.item42 li {
         padding: 12px 18px; /*2*/
         text-decoration: none; /*3*/
+        color: #474E5D;
+        display: inline;
+
+}
+
+.item42 h2{
+        padding-top: 60px;
+        padding-left: 60px;
+        color: #474E5D;
+}
+
+.item42 p {
+        color: #474E5D;
+        padding-left: 60px;
     }
 
+ 
 
 .item4 {
     grid-area: Location1;
@@ -73,7 +87,6 @@
     background-color: #ffffff;
     height: 400px;
 }
-
 
 .item7 {
     grid-area: Ammenities;
@@ -189,7 +202,6 @@
     text-align: center;
 }
 
-
 img {
     height: 300px;
     width: 500px;
@@ -201,35 +213,12 @@ img {
     padding-top: 70px;
 }
 
-.item42 h2 {
-    padding-top: 50px;
-    padding-left: 60px;
-    color: #474E5D;
-}
-
-.item42 p {
-    color: #474E5D;
-    padding-left: 20px;
-}
-
-.item42 li {
-    color: #474E5D;
-    display: inline;
-}
-
-.item42 i {
-    padding: 14px 16px;
-}
-
-
-
 #logo h2 {
     color: #fff;
     padding-left: 40px;
 }
 
-/*#capana-descprition p {
-}*/
+
 #img7 {
     padding-left: 60px;
     padding-top: 50px;
@@ -289,7 +278,6 @@ img {
         background-position: 10px 50%;
     }
 }
-
 
 /*Select every element*/
 [id^="item"] {
@@ -372,7 +360,6 @@ textarea {
     }
 }
 
-
 #section h2 {
     margin-bottom: 50px;
     position: relative;
@@ -416,8 +403,7 @@ textarea {
         transition: all 0.3s ease-out;
     }
 
-        /*.contact-form .input-block.focus {
-        }*/
+        
 
         .contact-form .input-block.textarea {
             height: auto;
@@ -554,7 +540,6 @@ textarea {
     padding-top: 20px;
 }
 
-
 #faMail {
     color: #474E5D;
     padding-top: 20px;
@@ -640,8 +625,6 @@ textarea {
         border-color: #e64522;
     }
 
-
-
 #location-text h1 {
     text-align: center;
     color: #fff;
@@ -689,15 +672,13 @@ textarea {
     color: #fff;
 }
 
-
 #contact-text p {
     text-align: center;
     color: #fff;
     font-size: 20px;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Lato:300,500);
-
+/*@import url(https://fonts.googleapis.com/css?family=Lato:300,500);*/
 
 /*
   navigation
