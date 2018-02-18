@@ -2,9 +2,12 @@
     margin: 0;
 }
 
+/*#00cc99  green*/
+/*#474E5D Grey*/
+
 .grid-container {
     display: grid;
-    grid-template-areas: 'nav nav nav nav nav nav' 'landing landing landing landing Map Map' 'Locations Locations Locations Locations Locations Locations' 'location12 location12 location12 Location1 Location1 Location1' 'Location2 Location2 Location2 Location2 Location2 Location2' 'Location3 Location3 Location3 Location3 Location3 Location3' 'Ammenities Ammenities Ammenities Ammenities Ammenities Ammenities' 'Checker1 Checker1 Checker2 Checker2 Checker3 Checker3' 'Checker4 Checker4 Checker5 Checker5 Checker6 Checker6' 'Checker7 Checker7 Checker8 Checker8 Checker9 Checker9' 'Reviews Reviews Reviews Reviews Reviews Reviews' 'Contact Contact Contact Contact2 Contact2 Contact2' 'Footer Footer Footer Footer Footer Footer';
+    grid-template-areas: 'nav nav nav nav nav nav' 'landing landing landing landing Map Map' 'Locations Locations Locations Locations Locations Locations' 'location12 location12 location12 Location12 Location1 Location1' 'Location2 Location2 Location22 Location22 Location22 Location22' 'Location32 Location32 Location32 Location3 Location3 Location3' 'Ammenities Ammenities Ammenities Ammenities Ammenities Ammenities' 'Checker1 Checker1 Checker2 Checker2 Checker3 Checker3' 'Checker4 Checker4 Checker5 Checker5 Checker6 Checker6' 'Checker7 Checker7 Checker8 Checker8 Checker9 Checker9' 'Reviews Reviews Reviews Reviews Reviews Reviews' 'Contact Contact Contact Contact2 Contact2 Contact2' 'Footer Footer Footer Footer Footer Footer';
     margin-top: 20px;
     height: 1500px;
 }
@@ -54,21 +57,18 @@
         text-decoration: none; /*3*/
         color: #474E5D;
         display: inline;
+    }
 
-}
-
-.item42 h2{
+.item42 h2 {
         padding-top: 60px;
         padding-left: 60px;
         color: #474E5D;
-}
+    }
 
 .item42 p {
         color: #474E5D;
         padding-left: 60px;
     }
-
- 
 
 .item4 {
     grid-area: Location1;
@@ -76,16 +76,52 @@
     height: 450px;
 }
 
+.item52 {
+    grid-area: Location22;
+    background-color: #474E5D;
+    height: 450px;
+    padding-left: 50px;
+}
+
+    /*.item52 ul {
+      
+    }*/ /*Icons need adjusting*/
+
+.item52 li {
+    padding: 10px 18px; /*2*/
+    text-decoration: none; /*3*/
+    color: #fff;
+    display: inline;
+}
+
+.item52 h2 {
+    padding-top: 60px;
+    padding-right: 60px;
+    color: #fff;
+}
+
+.item52 p {
+    color: #fff;
+    padding-right: 60px;
+}
+
+
 .item5 {
     grid-area: Location2;
     background-color: #474E5D;
-    height: 400px;
+    height: 450px;
+}
+
+.item62 {
+    grid-area: Location32;
+    background-color: orange;
+    height: 450px;
 }
 
 .item6 {
     grid-area: Location3;
     background-color: #ffffff;
-    height: 400px;
+    height: 450px;
 }
 
 .item7 {
@@ -218,10 +254,9 @@ img {
     padding-left: 40px;
 }
 
-
 #img7 {
     padding-left: 60px;
-    padding-top: 50px;
+    padding-top: 70px;
 }
 
 #img8 {
@@ -402,8 +437,6 @@ textarea {
         -webkit-transition: all 0.3s ease-out;
         transition: all 0.3s ease-out;
     }
-
-        
 
         .contact-form .input-block.textarea {
             height: auto;
@@ -726,3 +759,74 @@ textarea {
         color: #00cc99;
         border-color: #00cc99;
     }
+
+/* Location button start*/
+
+
+.button-location1 {
+    float: left;
+    padding-left: 60px;
+}
+
+
+
+.button-location1 button {
+    margin: 0 auto;
+    font-size: 15px;
+    padding: 1.25rem 2.5rem;
+    display: block;
+    background-color: #00cc99;
+    border: 1px solid transparent;
+    color: #ffffff;
+    font-weight: 300;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.button-location1 {
+    float: left;
+    padding-left: 60px;
+}
+
+
+.button-location1 button:hover {
+    background-color: #ffffff;
+    color: #00cc99;
+    border-color: #00cc99;
+}
+
+.button-location2 button {
+   
+   float: left;
+}
+
+.button-location2 button {
+    margin: 0 auto;
+    font-size: 15px;
+    padding: 1.25rem 2.5rem;
+    display: block;
+    background-color: #00cc99;
+    border: 1px solid transparent;
+    color: #ffffff;
+    font-weight: 300;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-location2 button:hover {
+    background-color: #ffffff;
+    color: #00cc99;
+    border-color: #00cc99;
+}
+
+
+
+
+/*#00cc99*/
