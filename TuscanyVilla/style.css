@@ -1,6 +1,7 @@
 ﻿
 body {
     margin: 0;
+  
 }
 
 /*#00cc99  green*/
@@ -21,17 +22,20 @@ body {
     width: 100%;
     height: 75px;
     font: 300 16px/1.2 Lato;
+    
 }
 
     .item1 h2 {
         color: #fff;
         padding-left: 40px;
+        font-family: 'Montserrat', sans-serif;
     }
 
 .nav {
     list-style: none;
     float: right;
     padding-right: 20PX;
+    font-family: 'Shadows Into Light', cursive;
 }
 
     .nav li {
@@ -66,6 +70,7 @@ body {
     font-size: 30px;
     padding-top: 40px;
     height: 500px;
+    
 }
 
 
@@ -73,12 +78,14 @@ body {
     .item2 h1 {
         text-align: center;
         padding-top: 50px;
-        color: #fff;
+        color: #00cc99;
+        font-family: 'Montserrat', sans-serif;
     }
 
     .item2 p {
         text-align: center;
-        color: #fff;
+        color: #00cc99;
+        font-family: 'Shadows Into Light', cursive;
     }
 
 .item3 {
@@ -96,37 +103,45 @@ body {
     height: 150px;
     background-color: #474E5D;
     text-align: center;
+    
 }
 
     .item4 h2 {
-        color: #fff;
+        color: #00cc99;
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 10px;
     }
 
     .item4 p {
-        color: #fff;
+        color: #00cc99;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 25px;
     }
 
 .item5 {
     grid-area: location1;
     background-color: #fff;
     height: 400px;
+   
 }
 
     .item5 h2 {
-        padding-top: 60px;
+        padding-top: 40px;
         padding-left: 60px;
         color: #474E5D;
+        font-family: 'Montserrat', sans-serif;
     }
 
     .item5 p {
         color: #474E5D;
         padding-left: 60px;
+        font-family: 'Shadows Into Light', cursive;
     }
 
-    .item5 li {
-        padding-left: 20px;
+    .item5 li{
+       text-align: center;
         text-decoration: none; /*3*/
-        color: #474E5D;
+        color: black;
         display: inline;
     }
 
@@ -144,6 +159,7 @@ body {
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
+        font-family: 'Montserrat', sans-serif;
     }
 
 .button-location1 {
@@ -191,12 +207,14 @@ body {
 }
 
     .item8 h2 {
-        padding-top: 60px;
+        padding-top: 30px;
         color: #fff;
+        font-family: 'Montserrat', sans-serif;
     }
 
     .item8 p {
         color: #fff;
+        font-family: 'Shadows Into Light', cursive;
     }
 
     .item8 li {
@@ -220,6 +238,7 @@ body {
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
+        font-family: 'Montserrat', sans-serif;
     }
 
 .button-location2 {
@@ -239,14 +258,16 @@ body {
 }
 
     .item9 h2 {
-        padding-top: 60px;
+        padding-top: 30px;
         padding-left: 60px;
         color: #474E5D;
+        font-family: 'Montserrat', sans-serif;
     }
 
     .item9 p {
         color: #474E5D;
         padding-left: 60px;
+        font-family: 'Shadows Into Light', cursive;
     }
 
     .item9 li {
@@ -270,6 +291,7 @@ body {
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
+        font-family: 'Montserrat', sans-serif;
     }
 
 .button-location3 {
@@ -305,11 +327,14 @@ body {
 }
 
     .item11 h2 {
-        color: #fff;
+        color: #00cc99;
+        font-family: 'Montserrat', sans-serif;
     }
 
     .item11 p {
-        color: #fff;
+        color: #00cc99;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 25px;
     }
 
 .item12 {
@@ -322,6 +347,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .receptions p {
@@ -336,6 +362,7 @@ body {
     height: 400px;
     margin-top: 40px;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
     /*.occasion {
@@ -358,6 +385,7 @@ body {
         -webkit-transition: all 0.3s ease-in-out;
         -moz-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
+        font-family: 'Montserrat', sans-serif;
     }
 
 .button-ocasion {
@@ -380,6 +408,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .relax p {
@@ -394,6 +423,7 @@ body {
     height: 400px;
     margin-left: 20px;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
     .item15 button {
@@ -430,6 +460,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .home p {
@@ -444,6 +475,7 @@ body {
     height: 400px;
     margin-right: 20px;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
     .item17 button {
@@ -482,6 +514,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .view p {
@@ -496,6 +529,7 @@ body {
     height: 400px;
     margin-bottom: 30px;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
     .item19 button {
@@ -534,6 +568,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .dining p {
@@ -550,15 +585,19 @@ body {
 }
 
     .item21 h2 {
-        color: #fff;
+        color: #00cc99;
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 20px
     }
 
     .item21 p {
-        color: #fff;
+        color: #00cc99;
+        font-family: 'Shadows Into Light', cursive;
     }
 
 .item22 {
     grid-area: carasaul;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*-----------carousel----------------------*/
@@ -567,6 +606,7 @@ body {
     height: 550px;
     position: relative;
     width: 100%;
+    color: #fff;
 }
 
 .carousel-item {
@@ -657,17 +697,22 @@ body {
 }
 
     .item23 h2 {
-        color: #fff;
+        color: #00cc99;
+        font-family: 'Montserrat', sans-serif;
     }
 
     .item23 p {
-        color: #fff;
+        color: #00cc99;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 25px;
     }
 
 .item24 {
     grid-area: contact1;
     height: 600px;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 30px;
 }
 
 #faPhone {
@@ -772,7 +817,7 @@ body {
 }
 
 textarea {
-    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .wrap {
@@ -803,6 +848,7 @@ textarea {
     margin-bottom: 50px;
     position: relative;
     display: block;
+    
 }
 
 #section p a {
@@ -978,6 +1024,7 @@ textarea {
     background-color: #474E5D;
     height: 175px;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
     .item26 p, i {
