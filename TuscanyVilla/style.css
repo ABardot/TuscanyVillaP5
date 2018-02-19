@@ -204,6 +204,7 @@ body {
     grid-area: location2-2;
     background-color: #474E5D;
     height: 400px;
+    padding-left: 30px;
 }
 
     .item8 h2 {
